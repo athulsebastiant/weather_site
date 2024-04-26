@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>My Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2 align='center' class="heading">
+        Welcome
+        to the weather
+        Page
+    </h2>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="images/search.png"> </button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city Name</p>
+        </div>
+        <div class="Weather">
+            <img src="images/rain.png" class="Weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h1>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>wind speed</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/airP.png">
+                    <div>
+                        <p class="pressure">984 hpa</p>
+                        <p style="margin-left: -16px;">air pressure</p>
+                    </div>
+                </div>
+
+                <div class="down-arrow">
+                    <button><img src="images/more_options.png" align="center"> </button>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
